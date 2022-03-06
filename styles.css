@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* background-color: #E7FBBE; */
+  /* background-color: #A3E4DB; */
+  background-color: #F2FFE9;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.top-container{
+  position: relative;
+  padding-top: 80px;
+  background-color: #28FFBF;
+  /* height: 250px; */
+  font-family: 'Rampart One', cursive;
+  font-size: 1.5rem;
+}
+
+
+.subtitle {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.topcloud {
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+
+.bottomcloud {
+  position:absolute;
+  left: 70px;
+  bottom: 160px;
+}
+
+.mountain {
+  width: 220px;
+  height: 150px;
+}
+
+.middle-container{
+  padding-top: 35px;
+  text-align: center;
+}
+
+
+
+.profile-img{
+  width: 150px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 70%;
+}
+
+img {
+  width: 150px;
+}
+
+.skill-image img {
+  float: left;
+  margin-right: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.skill-image-2 img{
+  float: right;
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.skill-content {
+  text-align: left;
+  font-size: 13px;
+}
+
+.skill-row {
+  text-align: center;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.para {
+  margin-bottom: 40px;
+}
+
+.btn a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.contact a:link {
+  color: #F2FFE9;
+}
+
+.contact a:visited {
+  color: #F2FFE9;
+}
+
+.btn {
+  background-color: #35589A;
+  width: 100px;
+  height: 20px;
+  padding-top: 3px;
+  margin: auto;
+}
+
+footer {
+  background-color: #28FFBF;
+  margin-top: 50px;
+  height: 100px;
+}
+
+footer p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50%;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a:link{
+  color: black;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60%;
+  text-decoration: none;
+}
+
+.links a:hover{
+  text-decoration: none;
+  color: #F2FFE9;
+}
+
+/* .links a:visited{
+  text-decoration: none;
+  color: black;
+} */
